@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Javascript.js/javascript.js" defer></script>
+    <title>Dance With Me</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo-govend">
+        <section>
+            <h1>Kurdish form of meditation</h1>
+            <p>Govend, a traditional Kurdish dance, stands as a beacon of cultural resilience amidst adversity.</p>
+            <p>Govend Time is a game for those who want to learn this cultural dance. Watch the video and place the
+                cards in the correct order. Sort the cards fast, score big! Watch the video max 3 times—fewer views, more points. Ready? Go!
+            </p>
+        </section>
+        <button id="start-button">Start Game</button>
+    </header>
+
+    <main id="main-game">
+        <article>
+            <section>
+                <h2 id="dance-name">Dance Name</h2>
+                <p id="level">Level</p>
+                <video id="dance-video" src="" controls></video>
+                <p id="video-view">Views of the video: 0 / 3</p>
+                <p id="timer">Time left</p>
+                <p id="score"> Score: </p>
+            </section>
+            <section class="game">
+                <div id="card-container">
+                </div>
+                <h3>Select the cards in the correct order</h3>
+                <div id="hint">
+                    <img id="bulb" src="images/bulb_off.jpg">
+                    <p id="tips">Turn on the light for hints</p>
+                </div>
+                <div id="order-container">
+                    <div class="card-order"></div>
+                    <div class="card-order"></div>
+                    <div class="card-order"></div>
+                    <div class="card-order"></div>
+                    <div class="card-order"></div>
+                </div>
+                <div id="buttonS">
+                    <button id="check-button">Check it</button>
+                    <button id="replay" style="display: none;">Replay</button>
+                    <button id="next" style="display: none;">Next Level</button>
+                    <button id="again" style="display: none;">Play Again</button>
+                </div>
+                <div id="result"></div>
+            </section>
+        </article>
+    </main>
+
+    <footer id="footer-game">
+        <img src="images/logo.png" alt="logo">
+        <div>
+            <p>© 2025 Dance With Me | All rights reserved.</p>
+            <p>Ceren &#199;oban, Hogeschool van Amsterdam </p>
+        </div>
+    </footer>
+</body>
+
+</html>
